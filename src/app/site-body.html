@@ -1,0 +1,908 @@
+
+  <!-- ===== CUSTOM CIRCLE CURSOR ===== -->
+  <div class="custom-cursor" aria-hidden="true"></div>
+
+  <!-- ===== SPLASH SCREEN ===== -->
+  <div id="splash">
+    <div class="splash-inner">
+      <div class="splash-label">This is me</div>
+      <div class="splash-name">Mohamed<br>Shehata<span>.</span></div>
+      <div class="splash-track">
+        <div class="splash-bar" id="splash-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="nav" aria-label="Section navigation">
+    <a href="#hero" class="nav-logo" aria-label="Home">Mohamed Shehata<span class="nav-dot">.</span></a>
+    <ul class="nav-pill" role="list">
+      <li><a href="#about"        data-target="about">About</a></li>
+      <li><a href="#experience"   data-target="experience">Career</a></li>
+      <li><a href="#vibe-coding"  data-target="vibe-coding">Experiments</a></li>
+      <li><a href="#ventures"     data-target="ventures">Founder</a></li>
+      <li><a href="#tools"        data-target="tools">Tools</a></li>
+      <span class="nav-indicator" aria-hidden="true"></span>
+    </ul>
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <!-- Base: orange/warm photo -->
+    <div class="hero-photo-wrap">
+      <img decoding="async" src="./assets/hero-orange.jpg" alt="Mohamed Shehata" id="hero-photo" />
+    </div>
+
+    <!-- WebGL fluid reveal canvas (three-skull fluid sim) -->
+    <canvas id="hero-gl"></canvas>
+
+    <!-- Social links — left -->
+    <div class="hero-social">
+      <a href="https://linkedin.com/in/mohamedshehata81" target="_blank" rel="noopener">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        Linkedin
+      </a>
+      <a href="mailto:mohamed@mohamedshehata.net">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email
+      </a>
+      <a href="tel:+966553569329">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.61 4.4 2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.12 6.12l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Phone
+      </a>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-hint">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== INTRO — DARK STATEMENT ===== -->
+  <section id="intro">
+    <div style="max-width:1200px;margin:0 auto;padding:0 0;">
+      <div style="border-top:1px solid rgba(255,255,255,0.08);padding-top:20px;margin-bottom:48px;">
+        <span class="sec-label" style="color:rgba(255,255,255,0.3);">Intro</span>
+      </div>
+    </div>
+    <div class="intro-inner" style="padding:0;max-width:1200px;margin:0 auto;display:block;text-align:center;">
+      <div>
+        <p class="intro-statement" id="intro-statement" style="text-align:center;">
+          <span class="ist-line"><span class="ist-inner">I'm a senior UX executive who turns <span class="accent-phrase">design organizations</span></span></span>
+          <span class="ist-line"><span class="ist-inner">into <span class="accent-phrase">revenue engines.</span></span></span>
+          <span class="ist-line"><span class="ist-inner"><span class="accent-phrase">23 years</span> of strategy, systems, and <span class="accent-phrase">scale</span> — across</span></span>
+          <span class="ist-line"><span class="ist-inner">e-commerce, enterprise, and AI-driven products.</span></span>
+        </p>
+      </div>
+      <div style="display:none;" class="reveal d1">
+        <div class="intro-right">
+          <p class="intro-body">
+            Building and scaling world-class UX organizations across the GCC. Currently leading a multidisciplinary team of UI/UX designers, product designers, UX researchers, content strategists, copywriters, photographers, and studio editors — directly accountable for SAR 1.22B in 2025 online revenue, CSI 86.2%, and a 25% YoY reduction in complaint rate.
+          </p>
+          <div class="intro-stats">
+            <div>
+              <div class="intro-stat-num" data-count="86" data-sfx="%">86%</div>
+              <div class="intro-stat-label">Customer satisfaction score (2025)</div>
+            </div>
+            <div class="stat-pipe"></div>
+            <div>
+              <div class="intro-stat-num" data-count="25" data-sfx="%">25%</div>
+              <div class="intro-stat-label">YoY complaint reduction</div>
+            </div>
+            <div class="stat-pipe"></div>
+            <div>
+              <div class="intro-stat-num">SAR 1.22B</div>
+              <div class="intro-stat-label">Online revenue under UX leadership</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERTISE — numbered dark section, 100vh fit ===== -->
+  <div class="numbered-section exp-fit">
+    <!-- WebGL orange cylinders grid (threejs-components Grid2Background) -->
+    <canvas id="exp-cyl-canvas" aria-hidden="true"></canvas>
+
+    <div class="exp-content">
+      <div class="ns-header">
+        <div>
+          <span class="sec-label">Expertise</span>
+        </div>
+        <div class="ns-ghost-num"></div>
+      </div>
+      <div class="exp-title-grid" style="grid-template-columns:1fr;">
+        <div>
+          <h2 class="ns-h2 reveal" style="text-align:left;">Areas of<br/>Specialisation.</h2>
+        </div>
+      </div>
+
+      <div class="h-list h-list-2col">
+        <div class="h-list-item reveal"><span class="h-item-name">UX Strategy &amp; Vision</span><span class="h-item-num">01</span></div>
+        <div class="h-list-item reveal d1"><span class="h-item-name">E-Commerce &amp; CRO</span><span class="h-item-num">02</span></div>
+        <div class="h-list-item reveal"><span class="h-item-name">DesignOps &amp; Design Systems</span><span class="h-item-num">03</span></div>
+        <div class="h-list-item reveal d1"><span class="h-item-name">AI-Driven Workflows &amp; Tooling</span><span class="h-item-num">04</span></div>
+        <div class="h-list-item reveal"><span class="h-item-name">Digital Transformation</span><span class="h-item-num">05</span></div>
+        <div class="h-list-item reveal d1"><span class="h-item-name">Cross-Functional Team Leadership</span><span class="h-item-num">06</span></div>
+        <div class="h-list-item reveal"><span class="h-item-name">Subscription Product UX</span><span class="h-item-num">07</span></div>
+        <div class="h-list-item reveal d1"><span class="h-item-name">User Research &amp; Usability Testing</span><span class="h-item-num">08</span></div>
+        <div class="h-list-item reveal"><span class="h-item-name">Multi-Country Content Governance</span><span class="h-item-num">09</span></div>
+        <div class="h-list-item reveal d1"><span class="h-item-name">Agile / Lean UX / Scrum</span><span class="h-item-num">10</span></div>
+        <div class="h-list-item reveal"><span class="h-item-name">Stakeholder &amp; Executive Mgmt</span><span class="h-item-num">11</span></div>
+        <div class="h-list-item reveal d1"><span class="h-item-name">Talent Development &amp; Mentorship</span><span class="h-item-num">12</span></div>
+        <div class="h-list-item reveal"><span class="h-item-name">Workshop Facilitation</span><span class="h-item-num">13</span></div>
+        <div class="h-list-item reveal d1"><span class="h-item-name">Mobile &amp; Responsive UX</span><span class="h-item-num">14</span></div>
+        <div class="h-list-item reveal"><span class="h-item-name">Accessibility &amp; Inclusive Design</span><span class="h-item-num">15</span></div>
+        <div class="h-list-item reveal d1"><span class="h-item-name">Brand Experience &amp; Visual Direction</span><span class="h-item-num">16</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="about-wrap">
+      <div class="about-header reveal">
+        <span class="sec-label">About</span>
+      </div>
+      <div class="about-grid">
+        <!-- Photo -->
+        <div class="about-photo reveal">
+          <img decoding="async" src="./assets/me-front.jpg" alt="Mohamed Shehata" />
+          <div class="about-photo-tag">NN/g VP · Director Track</div>
+        </div>
+        <!-- Text -->
+        <div>
+          <h2 class="about-h2 reveal d1">23 years building<br/>UX organizations<br/>that outperform.</h2>
+          <p class="about-body reveal d2">
+            For over two decades, I've led design at the intersection of human behavior and business performance — scaling UX teams, shaping product strategy, and making design a boardroom conversation.
+          </p>
+          <p class="about-body reveal d2">
+            At <strong>United Electronics Co. (eXtra)</strong>, I built and led a multidisciplinary UX organization across KSA, Oman, and Bahrain — growing online revenue to <strong>SAR 1.22B</strong>, launching the Jood loyalty platform, and delivering a zero-regression migration across millions of users.
+          </p>
+          <p class="about-body reveal d3">
+            Outside my corporate role, I founded <strong>Enrichly</strong> — an AI-powered PDP content platform — and mentor the next generation of UX leaders through ADPList.
+          </p>
+          <p class="about-body reveal d3">
+            I hold the Nielsen Norman Group VP/Director Specialty Track certification, with focus areas in DesignOps, Leading UX Teams, and Lean UX &amp; Agile.
+          </p>
+          <div class="cert-block reveal d4">
+            <div class="cert-bar"></div>
+            <div>
+              <div class="cert-name">Nielsen Norman Group — UX Management</div>
+              <div class="cert-sub">VP/Director Specialty Track · Certified Sep 2020<br/>DesignOps, Leading UX Teams, Lean UX &amp; Agile</div>
+            </div>
+          </div>
+          <div class="live-row reveal d5">
+            <span class="live-dot"></span>
+            Currently based in Al Khobar, Saudi Arabia
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="exp-wrap">
+      <div class="exp-header reveal">
+        <span class="sec-label">Career</span>
+      </div>
+      <h2 class="exp-h2 reveal" style="margin-bottom:64px;">
+        Two Decades. One Direction.<br/><span>Measurable at Every Step.</span>
+      </h2>
+      <div class="exp-list">
+
+        <!-- Role 1 -->
+        <div class="exp-item reveal">
+          <div>
+            <div class="exp-left-num">01</div>
+            <div class="exp-role">Head of UX</div>
+            <div class="exp-company">United Electronics Co. (eXtra) · KSA, Oman &amp; Bahrain</div>
+            <p class="exp-body">
+              Led all facets of the digital experience function — UX strategy, research, design execution, content operations, and studio production across three GCC markets. Built a multidisciplinary organization from scratch spanning UI/UX designers, product designers, researchers, content strategists, copywriters, photographers, and studio editors.
+            </p>
+            <div class="exp-impact" style="margin-top:16px;">
+              <div class="exp-impact-row">
+                <div class="impact-dot"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                <span>Online revenue grew to <strong>SAR 1.22B in 2025</strong> (+4% YoY) through UX and CRO programs</span>
+              </div>
+              <div class="exp-impact-row">
+                <div class="impact-dot"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                <span>Achieved <strong>CSI 86.2%</strong> (+2% YoY) and reduced complaint rate <strong>25% YoY</strong> (0.18% → 0.13%)</span>
+              </div>
+              <div class="exp-impact-row">
+                <div class="impact-dot"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                <span>Launched <strong>Jood</strong> — eXtra's first digital loyalty subscription platform</span>
+              </div>
+              <div class="exp-impact-row">
+                <div class="impact-dot"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                <span>Led omni-channel UX — in-store kiosk, Pay online &amp; Collect from store, and RED BOX collection points — across all eXtra locations</span>
+              </div>
+              <div class="exp-impact-row">
+                <div class="impact-dot"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                <span>Led SAP Hybris migration with <strong>zero UX regression</strong> across millions of users</span>
+              </div>
+            </div>
+          </div>
+          <div class="exp-right">
+            <div class="exp-tenure">Apr 2012 — Present<br/>14+ years</div>
+            <div class="exp-tags">
+              <span class="exp-tag">DesignOps</span>
+              <span class="exp-tag">E-Commerce UX</span>
+              <span class="exp-tag">AI Innovation</span>
+              <span class="exp-tag">SAP Hybris</span>
+              <span class="exp-tag">VWO · Hotjar</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="exp-item reveal">
+          <div>
+            <div class="exp-left-num">02</div>
+            <div class="exp-role">UX Design Lead</div>
+            <div class="exp-company">Link Development — Microsoft Gold Partner · Cairo, Egypt</div>
+            <p class="exp-body">
+              Led UX strategy and delivery for enterprise, government, NGO, and commercial clients across Egypt and the MENA region. Specialized in SharePoint-based digital transformation for large-scale public sector deployments. Operated as single UX lead for the Saudi region.
+            </p>
+          </div>
+          <div class="exp-right">
+            <div class="exp-tenure">Mar 2007 — Mar 2012<br/>5 years</div>
+            <div class="exp-tags">
+              <span class="exp-tag">Enterprise UX</span>
+              <span class="exp-tag">SharePoint</span>
+              <span class="exp-tag">MENA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="exp-item reveal">
+          <div>
+            <div class="exp-left-num">03</div>
+            <div class="exp-role">Senior Web Designer</div>
+            <div class="exp-company">Sarmady — Vodafone Egypt · Cairo, Egypt</div>
+            <p class="exp-body">
+              Designed and maintained Egypt's most-visited digital portals — FilGoal (football), FilFan (entertainment), and FilBalad (news). Built foundational expertise in high-traffic content layout and early mobile-first experiences.
+            </p>
+          </div>
+          <div class="exp-right">
+            <div class="exp-tenure">Feb 2003 — Feb 2007<br/>4 years</div>
+            <div class="exp-tags">
+              <span class="exp-tag">High-Traffic Portals</span>
+              <span class="exp-tag">Content UX</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VIBE CODING — SVG Mask Scroll Transition (Tympanus / Hiro-kiii) ===== -->
+  <section id="vibe-coding">
+    <div class="vc-pin">
+
+      <!-- Section intro — fills the black background before the first project reveals -->
+      <div class="vc-intro" aria-hidden="true">
+        <h2 class="vc-intro-title">From brief to browser — because great leaders still build.</h2>
+        <p class="vc-intro-desc">Most UX leaders stop building. I don't. These are director-level concepts taken from idea to live product — solo, using <strong>Claude Code</strong>, <strong>Figma Make</strong>, and <strong>Google Antigravity</strong>. No delegation. No dilution. No waiting.</p>
+        <p class="vc-intro-desc" style="margin-top:-12px;color:rgba(255,255,255,0.6);">This is what it looks like when strategy and execution live in the same person.</p>
+        <span class="vc-intro-hint">Scroll to explore — nine experiments ↓</span>
+      </div>
+
+      <!-- Layer 1 — Giza Circuit -->
+      <svg class="vc-layer" data-idx="0" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-0" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-0"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/GizaCircuit.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-0)"/>
+      </svg>
+
+      <!-- Layer 2 — Egypt WC Kit -->
+      <svg class="vc-layer" data-idx="1" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-1" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-1"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/EgyptKit.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-1)"/>
+      </svg>
+
+      <!-- Layer 3 — Hamza / Barca FC -->
+      <svg class="vc-layer" data-idx="2" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-2" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-2"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/HamzaBarca.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-2)"/>
+      </svg>
+
+      <!-- Layer 4 — Celestial Deer -->
+      <svg class="vc-layer" data-idx="3" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-3" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-3"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/CelestialDeer.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-3)"/>
+      </svg>
+
+      <!-- Layer 5 — Ferrari -->
+      <svg class="vc-layer" data-idx="4" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-4" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-4"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/Ferrari.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-4)"/>
+      </svg>
+
+      <!-- Layer 6 — Nissan -->
+      <svg class="vc-layer" data-idx="5" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-5" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-5"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/Nissan.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-5)"/>
+      </svg>
+
+      <!-- Layer 7 — AMG -->
+      <svg class="vc-layer" data-idx="6" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-6" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-6"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/Amg.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-6)"/>
+      </svg>
+
+      <!-- Layer 8 — Coming Soon Products -->
+      <svg class="vc-layer" data-idx="7" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-7" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-7"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/Classwasher.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-7)"/>
+      </svg>
+
+      <!-- Layer 9 — Nike Kitchen Wear -->
+      <svg class="vc-layer" data-idx="8" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <mask id="vc-mask-8" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="100" height="100" fill="black"/>
+            <g id="vc-blinds-8"></g>
+          </mask>
+        </defs>
+        <image data-href="./assets/Vibesec/Nike.jpg"
+               x="0" y="0" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice"
+               mask="url(#vc-mask-8)"/>
+      </svg>
+
+      <!-- Header -->
+      <div class="vc-overlay-header">
+        <span class="sec-label">Vibe Code Experiments</span>
+      </div>
+      <div class="vc-overlay-counter"><b id="vc-counter-current">01</b> / 09</div>
+      <div class="vc-scroll-hint">Scroll ↓</div>
+
+      <!-- Text panels -->
+      <div class="vc-txts">
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Formula 1 Concept · Claude Code</div>
+          <h1 class="vc-txt-title">Giza Circuit.</h1>
+          <p class="vc-txt-desc">Where Eternity Meets Velocity — a Formula 1 street circuit concept at the foot of the Great Pyramids and the Grand Egyptian Museum. Cinematic track reveal with corner-by-corner storytelling.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">F1 Concept</span>
+            <span class="vc-txt-chip">Giza · Egypt</span>
+            <span class="vc-txt-chip">Claude Code</span>
+          </div>
+          <a href="https://giza-circuit.vercel.app/" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Egypt FA · Claude Code</div>
+          <h1 class="vc-txt-title">Egypt Kit WC 2026.</h1>
+          <p class="vc-txt-desc">Official-feel concept kit reveal for Egypt's 2026 FIFA World Cup campaign — cinematic product landing built with motion-first design and national pride.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">WC 2026</span>
+            <span class="vc-txt-chip">Kit Reveal</span>
+            <span class="vc-txt-chip">Claude Code</span>
+          </div>
+          <a href="https://egypt-kit-wc-2026.vercel.app" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Claude Code</div>
+          <h1 class="vc-txt-title">Hamza · FC Barcelona.</h1>
+          <p class="vc-txt-desc">A fan tribute landing experience for FC Barcelona — cinematic editorial design celebrating the club's identity and legacy.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">FC Barcelona</span>
+            <span class="vc-txt-chip">Fan Tribute</span>
+            <span class="vc-txt-chip">Claude Code</span>
+          </div>
+          <a href="https://hamza09.vercel.app" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Claude Code</div>
+          <h1 class="vc-txt-title">Celestial Deer.</h1>
+          <p class="vc-txt-desc">An ethereal, otherworldly journey — immersive visual experience built around atmospheric motion and a surreal, nature-meets-cosmos aesthetic.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">Ethereal</span>
+            <span class="vc-txt-chip">Motion First</span>
+            <span class="vc-txt-chip">Claude Code</span>
+          </div>
+          <a href="https://celestial-deer-ethereal-journey.vercel.app" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Ferrari · Claude Code</div>
+          <h1 class="vc-txt-title">Amalfi Spider.</h1>
+          <p class="vc-txt-desc">Ferrari Amalfi Spider 2025 — 640 hp open-top V8 grand tourer rendered in an elegant editorial layout.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">640 hp</span>
+            <span class="vc-txt-chip">3.3s · 0–100</span>
+          </div>
+          <a href="https://ferrariamalfispider.netlify.app/" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Nissan · Claude Code</div>
+          <h1 class="vc-txt-title">Z 2027.</h1>
+          <p class="vc-txt-desc">2027 Nissan Z featuring the new Shinkai Green Pearl finish. A clean, kinetic landing experience for the model's summer 2026 launch.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">V6 Turbo</span>
+            <span class="vc-txt-chip">2027 Model</span>
+          </div>
+          <a href="https://nissanz2027.netlify.app/" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Mercedes-AMG · Claude Code</div>
+          <h1 class="vc-txt-title">GT 63 Dark Night.</h1>
+          <p class="vc-txt-desc">Dark-themed showcase for the 2026 AMG GT 63 Dark Night — 200-unit limited PETRONAS F1 edition. Built to capture the machine's aggression through cinematic motion.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">612 hp</span>
+            <span class="vc-txt-chip">3.2s · 0–100</span>
+            <span class="vc-txt-chip">317 km/h</span>
+          </div>
+          <a href="https://amg-gt63-dark-night.netlify.app/#" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Google Antigravity</div>
+          <h1 class="vc-txt-title">Coming Soon Landing.</h1>
+          <p class="vc-txt-desc">Animated product launch page with motion-first layout and a minimal editorial feel — built no-code in Google Antigravity.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">No-Code Build</span>
+            <span class="vc-txt-chip">Motion First</span>
+          </div>
+          <a href="https://comming-soon-products.web.app/" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="vc-txt">
+          <div class="vc-txt-brand">Figma Make</div>
+          <h1 class="vc-txt-title">Nike Kitchen Wear.</h1>
+          <p class="vc-txt-desc">Concept e-commerce experience exploring Nike's entry into premium kitchenware design — full storefront prototyped end-to-end in Figma Make.</p>
+          <div class="vc-txt-meta">
+            <span class="vc-txt-chip accent">E-Com Concept</span>
+            <span class="vc-txt-chip">Nike Brand</span>
+          </div>
+          <a href="https://blanch-domain-34212894.figma.site/" target="_blank" rel="noopener" class="vc-txt-link">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Progress -->
+      <div class="vc-progress">
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+        <div class="vc-seg"><div class="vc-fill"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== VENTURES ===== -->
+  <section id="ventures">
+    <div class="ventures-wrap">
+      <div class="ventures-header reveal">
+        <span class="sec-label">Founder Projects</span>
+      </div>
+      <h2 class="ventures-h2 reveal" style="margin-bottom:64px;">Building what the industry needs —<br/>before it knows it needs it.</h2>
+
+      <div class="reveal">
+
+        <!-- Enrichly — public product [studio block] -->
+        <div class="en-block">
+
+          <!-- Top bar -->
+          <div class="en-top">
+            <div class="en-logo-mark">
+              <svg width="22" height="22" viewBox="283 0 237 211" fill="#adff4c" xmlns="http://www.w3.org/2000/svg">
+                <path d="M384.529 184.597C394.542 127.063 410.578 111.031 468.11 101.016C471.307 101.016 473.898 98.4223 473.898 95.2255C473.898 92.0286 471.307 89.4379 468.11 89.4379C410.458 79.6548 394.426 63.6224 384.529 6.08488C384.529 2.88804 381.938 0.294434 378.741 0.294434C375.545 0.294434 372.951 2.88804 372.951 6.08488C363.053 63.6188 347.02 79.6511 289.488 89.5482C286.291 89.5482 283.697 92.1418 283.697 95.3386C283.697 98.5355 286.291 101.126 289.488 101.126C347.022 111.139 363.054 127.175 373.069 184.707C373.502 187.556 375.967 189.65 378.848 189.622C381.731 189.593 384.153 187.447 384.529 184.592Z"/>
+                <path d="M476.553 208.223C481.358 180.623 489.056 172.932 516.671 168.128C518.205 168.128 519.448 166.884 519.448 165.35C519.448 163.817 518.205 162.574 516.671 162.574C488.998 157.881 481.303 150.19 476.553 122.588C476.553 121.054 475.309 119.81 473.775 119.81C472.24 119.81 470.995 121.054 470.995 122.588C466.244 150.188 458.549 157.879 430.934 162.627C429.399 162.627 428.154 163.871 428.154 165.404C428.154 166.938 429.399 168.181 430.934 168.181C458.549 172.984 466.245 180.677 471.052 208.276C471.26 209.643 472.443 210.647 473.826 210.634C475.21 210.62 476.372 209.591 476.552 208.221Z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="en-badge">Live · 5 Free Credits</span>
+              <div class="en-name">Enrichly</div>
+            </div>
+            <div class="en-ph-pill">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              AI Product Photography Studio
+            </div>
+          </div>
+
+          <!-- Body -->
+          <div class="en-body">
+            <div>
+              <div class="en-tagline">One Image.<br/><span>5 Pro Scenes.</span><br/>Instant Ecom Growth.</div>
+              <p class="en-desc">Turn a single product photo into studio-quality lifestyle photography in seconds. Enrichment AI extracts your subject and rebuilds it into five distinct commercial scenes — matched lighting, shadows, and perspective. No complex prompts, no photographers, no studios.</p>
+              <div class="en-chips">
+                <span class="en-chip accent">5 Pro Scenes / Upload</span>
+                <span class="en-chip">Studio Lighting</span>
+                <span class="en-chip">2K Rendering</span>
+                <span class="en-chip">4K Upscale</span>
+                <span class="en-chip">1:1 · 16:9 · 9:16</span>
+                <span class="en-chip">Full Commercial Rights</span>
+                <span class="en-chip">Sub-30s Generation</span>
+              </div>
+              <div class="en-pricing">
+                <span class="en-tier free">Free<span>5 credits · no card</span></span>
+                <span class="en-tier-sep">—</span>
+                <span class="en-tier">Starter $9.99<span>30 credits · 6 sets</span></span>
+                <span class="en-tier-sep">—</span>
+                <span class="en-tier">Pro $29.99<span>100 credits · 20 sets</span></span>
+              </div>
+              <div class="en-cta-row">
+                <a href="https://enrichlyapp.co/" target="_blank" rel="noopener" class="en-cta-primary">
+                  Try for Free
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+                <a href="https://enrichlyapp.co/" target="_blank" rel="noopener" class="en-cta-ghost">enrichlyapp.co →</a>
+              </div>
+            </div>
+
+            <!-- Hero visual: 1 image → 5 mockups -->
+            <div class="en-visual">
+              <img decoding="async" src="./assets/Enrichly/hero-up.jpg" alt="Enrichly — one product image transformed into five lifestyle mockups" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Scene marquee -->
+          <div class="en-marquee-wrap">
+            <div class="en-marquee">
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/urban.jpg"      alt="Urban street scene"  loading="lazy"/><span class="en-scene-label">Urban Street</span></div>
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/interior.jpg"   alt="Cozy interior scene"  loading="lazy"/><span class="en-scene-label">Cozy Interior</span></div>
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/park.jpg"        alt="Park bench scene"     loading="lazy"/><span class="en-scene-label">Park Bench</span></div>
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/waterfront.jpg"  alt="Waterfront sunset scene" loading="lazy"/><span class="en-scene-label">Waterfront</span></div>
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/night.jpg"       alt="City night scene"     loading="lazy"/><span class="en-scene-label">City Night</span></div>
+              <!-- duplicate for seamless loop -->
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/urban.jpg"      alt="Urban street scene"  loading="lazy"/><span class="en-scene-label">Urban Street</span></div>
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/interior.jpg"   alt="Cozy interior scene"  loading="lazy"/><span class="en-scene-label">Cozy Interior</span></div>
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/park.jpg"        alt="Park bench scene"     loading="lazy"/><span class="en-scene-label">Park Bench</span></div>
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/waterfront.jpg"  alt="Waterfront sunset scene" loading="lazy"/><span class="en-scene-label">Waterfront</span></div>
+              <div class="en-scene-tile"><img decoding="async" src="./assets/Enrichly/scenes/night.jpg"       alt="City night scene"     loading="lazy"/><span class="en-scene-label">City Night</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HeroFrame — iOS App [cinematic block] -->
+        <div class="hf-block">
+          <div class="hf-bg"></div>
+
+          <!-- Top bar -->
+          <div class="hf-top">
+            <img decoding="async" src="./assets/HeroFrame/logo-mark.png" alt="HeroFrame" class="hf-logo-mark" />
+            <div>
+              <span class="v-badge ios" style="margin-bottom:4px;">Live · iOS App</span>
+              <div class="hf-name">HeroFrame</div>
+            </div>
+          </div>
+
+          <!-- Body -->
+          <div class="hf-body">
+            <div>
+              <div class="hf-tagline">Your Photo.<br/><span>Your Sport.</span><br/>Your Poster.</div>
+              <p class="hf-desc">Turn a single photo into a cinematic, magazine-grade sports poster in seconds — face and all. Face-preserving AI rebuilds your surroundings with dramatic lighting and professional styling, without touching your features.</p>
+              <div class="hf-chips">
+                <span class="hf-chip">12 Sports</span>
+                <span class="hf-chip">48 WC 2026 Nations</span>
+                <span class="hf-chip">Face-preserving AI</span>
+                <span class="hf-chip">Under 60 seconds</span>
+                <span class="hf-chip">No ads · No tracking</span>
+                <span class="hf-chip">HD Export</span>
+              </div>
+              <div class="hf-pricing">
+                <span class="hf-tier hf-tier-free">Free<span>1 poster · all sports</span></span>
+                <span class="hf-tier-sep">—</span>
+                <span class="hf-tier hf-tier-pro">Pro $7.99/mo<span>40 HD · no watermark · priority</span></span>
+              </div>
+              <div class="hf-cta-row">
+                <a href="https://apps.apple.com/us/app/heroframe/id6775133443" target="_blank" rel="noopener" aria-label="Download HeroFrame on the App Store">
+                  <img decoding="async" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" class="hf-appstore-badge" />
+                </a>
+                <a href="https://heroframeapp.web.app/" target="_blank" rel="noopener" class="v-cta hf-cta">Website →</a>
+              </div>
+            </div>
+
+            <!-- Poster fan -->
+            <div class="hf-poster-fan">
+              <img decoding="async" src="./assets/HeroFrame/BrazilPoster.webp" alt="Brazil World Cup poster" class="hf-poster" />
+              <img decoding="async" src="./assets/HeroFrame/MoroPoster.webp"  alt="Morocco poster"          class="hf-poster" />
+              <img decoding="async" src="./assets/HeroFrame/ArgPoster.webp"   alt="Argentina poster"         class="hf-poster" />
+              <img decoding="async" src="./assets/HeroFrame/f1Poster.webp"    alt="Formula 1 poster"         class="hf-poster" />
+            </div>
+          </div>
+
+          <!-- Sports marquee -->
+          <div class="hf-marquee-wrap">
+            <div class="hf-marquee">
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/FootBall.webp"   alt="Football"   loading="lazy"/><span class="hf-sport-label">Football</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/BasketBall.webp" alt="Basketball" loading="lazy"/><span class="hf-sport-label">Basketball</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/F1.webp"         alt="Formula 1" loading="lazy"/><span class="hf-sport-label">Formula 1</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Boxing.webp"     alt="Boxing"    loading="lazy"/><span class="hf-sport-label">Boxing</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Tennis.webp"     alt="Tennis"    loading="lazy"/><span class="hf-sport-label">Tennis</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Running.webp"    alt="Running"   loading="lazy"/><span class="hf-sport-label">Running</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Padel.webp"      alt="Padel"     loading="lazy"/><span class="hf-sport-label">Padel</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/MMA.webp"        alt="MMA"       loading="lazy"/><span class="hf-sport-label">MMA</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Cycling.webp"    alt="Cycling"   loading="lazy"/><span class="hf-sport-label">Cycling</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Fitness.webp"    alt="Fitness"   loading="lazy"/><span class="hf-sport-label">Fitness</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Swimming.webp"   alt="Swimming"  loading="lazy"/><span class="hf-sport-label">Swimming</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Golf.webp"       alt="Golf"      loading="lazy"/><span class="hf-sport-label">Golf</span></div>
+              <!-- duplicate for seamless loop -->
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/FootBall.webp"   alt="Football"   loading="lazy"/><span class="hf-sport-label">Football</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/BasketBall.webp" alt="Basketball" loading="lazy"/><span class="hf-sport-label">Basketball</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/F1.webp"         alt="Formula 1" loading="lazy"/><span class="hf-sport-label">Formula 1</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Boxing.webp"     alt="Boxing"    loading="lazy"/><span class="hf-sport-label">Boxing</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Tennis.webp"     alt="Tennis"    loading="lazy"/><span class="hf-sport-label">Tennis</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Running.webp"    alt="Running"   loading="lazy"/><span class="hf-sport-label">Running</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Padel.webp"      alt="Padel"     loading="lazy"/><span class="hf-sport-label">Padel</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/MMA.webp"        alt="MMA"       loading="lazy"/><span class="hf-sport-label">MMA</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Cycling.webp"    alt="Cycling"   loading="lazy"/><span class="hf-sport-label">Cycling</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Fitness.webp"    alt="Fitness"   loading="lazy"/><span class="hf-sport-label">Fitness</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Swimming.webp"   alt="Swimming"  loading="lazy"/><span class="hf-sport-label">Swimming</span></div>
+              <div class="hf-sport-tile"><img decoding="async" src="./assets/HeroFrame/sports/Golf.webp"       alt="Golf"      loading="lazy"/><span class="hf-sport-label">Golf</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Enrichly × eXtra — internal tool [video explainer block] -->
+        <div class="ex-block">
+
+          <!-- Top bar -->
+          <div class="ex-top">
+            <div class="ex-logo-mark">
+              <svg width="22" height="22" viewBox="283 0 237 211" fill="rgba(255,255,255,0.9)" xmlns="http://www.w3.org/2000/svg">
+                <path d="M384.529 184.597C394.542 127.063 410.578 111.031 468.11 101.016C471.307 101.016 473.898 98.4223 473.898 95.2255C473.898 92.0286 471.307 89.4379 468.11 89.4379C410.458 79.6548 394.426 63.6224 384.529 6.08488C384.529 2.88804 381.938 0.294434 378.741 0.294434C375.545 0.294434 372.951 2.88804 372.951 6.08488C363.053 63.6188 347.02 79.6511 289.488 89.5482C286.291 89.5482 283.697 92.1418 283.697 95.3386C283.697 98.5355 286.291 101.126 289.488 101.126C347.022 111.139 363.054 127.175 373.069 184.707C373.502 187.556 375.967 189.65 378.848 189.622C381.731 189.593 384.153 187.447 384.529 184.592Z"/>
+                <path d="M476.553 208.223C481.358 180.623 489.056 172.932 516.671 168.128C518.205 168.128 519.448 166.884 519.448 165.35C519.448 163.817 518.205 162.574 516.671 162.574C488.998 157.881 481.303 150.19 476.553 122.588C476.553 121.054 475.309 119.81 473.775 119.81C472.24 119.81 470.995 121.054 470.995 122.588C466.244 150.188 458.549 157.879 430.934 162.627C429.399 162.627 428.154 163.871 428.154 165.404C428.154 166.938 429.399 168.181 430.934 168.181C458.549 172.984 466.245 180.677 471.052 208.276C471.26 209.643 472.443 210.647 473.826 210.634C475.21 210.62 476.372 209.591 476.552 208.221Z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="v-badge internal" style="margin-bottom:4px;">Internal · eXtra</span>
+              <div class="ex-name">eXtra Content Generator</div>
+            </div>
+            <div class="ex-sub">Internal AI PDP Production System<br/>Content Operations</div>
+          </div>
+
+          <!-- Video stage -->
+          <div class="ex-stage">
+            <div class="ex-video-frame">
+              <video data-src="./assets/Enrichly/extra-content-generator.mp4" poster="./assets/Enrichly/extra-content-generator-poster.jpg"
+                     autoplay muted loop playsinline controls preload="metadata"
+                     aria-label="eXtra Content Generator — turning a product model number into a publish-ready bilingual PDP"></video>
+            </div>
+            <p class="ex-caption">Built for my content team at eXtra — the eXtra Content Generator turns a product model number into a complete, publish-ready bilingual (English &amp; Arabic) A+ content page in seconds. Professionally written headlines, marketing copy, and feature callouts, packaged and ready to publish. The result: a more productive team and far wider product coverage, with A+ content across the catalog.</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- Community strip -->
+      <div class="community-strip reveal d1">
+        <div class="comm-item">
+          <span class="comm-num">01</span>
+          <div>
+            <div class="comm-name">ADPList Mentor</div>
+            <div class="comm-desc">Coaching the next generation of UX professionals in product design, career growth, and design leadership</div>
+          </div>
+        </div>
+        <div class="comm-item">
+          <span class="comm-num">02</span>
+          <div>
+            <div class="comm-name">IDRF Awards 2025 — Jury</div>
+            <div class="comm-desc">Jury Panel Member recognizing excellence in design and innovation across the region</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TOOLS ===== -->
+  <section id="tools">
+    <div class="tools-wrap">
+      <div class="tools-header reveal">
+        <span class="sec-label" style="color:rgba(255,255,255,0.3);">Toolset</span>
+        <h3 class="tools-h3">The tools of the craft</h3>
+      </div>
+      <div class="tools-flex reveal d1">
+        <span class="tool-item">Figma</span>
+        <span class="tool-item">Adobe Creative Suite</span>
+        <span class="tool-item">VWO</span>
+        <span class="tool-item">Hotjar</span>
+        <span class="tool-item">Mixpanel</span>
+        <span class="tool-item">Google Analytics / GA4</span>
+        <span class="tool-item">SAP Hybris</span>
+        <span class="tool-item">Amplience DAM</span>
+        <span class="tool-item ai">Midjourney</span>
+        <span class="tool-item ai">Adobe Firefly</span>
+        <span class="tool-item ai">ChatGPT</span>
+        <span class="tool-item ai">Claude AI</span>
+        <span class="tool-item ai">Google Flow</span>
+        <span class="tool-item">Jira</span>
+        <span class="tool-item">Trello</span>
+        <span class="tool-item">Asana</span>
+        <span class="tool-item">HTML / CSS</span>
+        <span class="tool-item">Usability Testing</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LANGUAGES & EDUCATION ===== -->
+  <section style="background:var(--black);padding:48px 40px;">
+    <div class="tools-wrap">
+      <div style="display:flex;gap:64px;flex-wrap:wrap;" class="reveal">
+        <div>
+          <div class="c-info-label" style="font-size:10px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.2);margin-bottom:10px;">Languages</div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <span class="tool-item">Arabic <span style="color:rgba(255,255,255,0.2);font-weight:400;font-size:11px;">Native</span></span>
+            <span class="tool-item">English <span style="color:rgba(255,255,255,0.2);font-weight:400;font-size:11px;">Fluent</span></span>
+          </div>
+        </div>
+        <div>
+          <div class="c-info-label" style="font-size:10px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.2);margin-bottom:10px;">Education</div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <span class="tool-item">Bachelor of Commerce — Accounting <span style="color:rgba(255,255,255,0.2);font-weight:400;font-size:11px;">Cairo University, Egypt</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="contact-wrap">
+      <div class="contact-header reveal">
+        <span class="sec-label" style="color:rgba(255,255,255,0.3);">Let's Talk</span>
+      </div>
+      <!-- Full-width copy block -->
+      <div class="contact-copy reveal">
+        <h2 class="contact-h2" style="text-align:left;">
+          Let's build something that <span>matters.</span>
+        </h2>
+        <p class="contact-desc" style="margin-top:24px;">
+          I'm open to <strong>VP of UX</strong>, <strong>Director of UX</strong>, and <strong>CXO</strong> conversations — particularly at organizations scaling digital products across the GCC or internationally.
+        </p>
+        <p class="contact-desc" style="margin-top:14px;">
+          I'm also available for advisory engagements, product collaborations, and speaking on UX leadership, DesignOps, and AI-driven product design.
+        </p>
+        <p class="contact-desc" style="margin-top:14px;">
+          If you're building something where design needs to perform — let's talk.
+        </p>
+      </div>
+
+      <!-- Photo + details side-by-side -->
+      <div class="contact-grid" style="margin-top:64px;">
+        <button type="button" class="contact-photo-wrap reveal d2" id="back-to-top" aria-label="Back to top">
+          <img decoding="async" src="./assets/contact-photo.jpg" alt="Mohamed Shehata" class="contact-photo" />
+          <span class="back-to-top-overlay">
+            <span class="back-to-top-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+            </span>
+            <span>Back to top</span>
+          </span>
+        </button>
+
+        <div class="c-links reveal d1">
+          <div style="font-size:10px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.2);margin-top:0;margin-bottom:2px;">Direct Channels</div>
+          <a href="tel:+966553569329" class="c-link">
+            <div class="c-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.61 4.4 2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.12 6.12l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div><div class="c-lbl">Phone</div><div class="c-val">(+966) 553 569 329</div></div>
+          </a>
+          <a href="mailto:mohamed@mohamedshehata.net" class="c-link">
+            <div class="c-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="c-lbl">Email</div><div class="c-val">mohamed@mohamedshehata.net</div></div>
+          </a>
+          <a href="https://linkedin.com/in/mohamedshehata81" target="_blank" rel="noopener" class="c-link">
+            <div class="c-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+            <div><div class="c-lbl">LinkedIn</div><div class="c-val">linkedin.com/in/mohamedshehata81</div></div>
+          </a>
+          <a href="#" class="c-link" style="border-bottom:none;">
+            <div class="c-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><div class="c-lbl">Location</div><div class="c-val">Al Khobar 34621, Saudi Arabia</div></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCRIPTS ===== -->
+  <canvas id="glow-cursor" aria-hidden="true"></canvas>
+
+  <!-- Awwwards badge -->
+  <div id="awwwards" style="position: fixed; z-index: 999; transform: translateY(-50%); top: 50%;  right: 0"><a href="https://www.awwwards.com/sites/mohamed-shehata-personal" target="_blank"><svg width="53.08" height="171.358"><path class="js-color-bg" fill="black" d="M0 0h53.08v171.358H0z"></path><g class="js-color-text" fill="white"><path d="M20.047 153.665v-1.9h3.888v-4.093h-3.888v-1.9h10.231v1.9h-4.59v4.093h4.59v1.9zM29.898 142.236c-.331.565-.784.997-1.359 1.294s-1.222.446-1.944.446c-.721 0-1.369-.149-1.943-.446a3.316 3.316 0 0 1-1.36-1.294c-.331-.564-.497-1.232-.497-2.002s.166-1.438.497-2.002a3.316 3.316 0 0 1 1.36-1.294c.574-.297 1.223-.445 1.943-.445.723 0 1.369.148 1.944.445a3.307 3.307 0 0 1 1.359 1.294c.331.564.497 1.232.497 2.002s-.166 1.438-.497 2.002m-1.703-3.347c-.435-.33-.967-.496-1.601-.496-.633 0-1.166.166-1.601.496-.433.332-.649.78-.649 1.346 0 .564.217 1.013.649 1.345.435.331.968.497 1.601.497.634 0 1.166-.166 1.601-.497.435-.332.649-.78.649-1.345.001-.566-.214-1.014-.649-1.346M22.911 134.852v-1.813h1.186a3.335 3.335 0 0 1-.951-1.009 2.423 2.423 0 0 1-.352-1.271c0-.682.19-1.229.57-1.645.381-.413.932-.621 1.652-.621h5.262v1.812h-4.721c-.419 0-.727.096-.921.285-.195.19-.292.447-.292.769 0 .302.115.58.35.833.234.254.577.458 1.03.613.454.156.993.234 1.616.234h2.938v1.813h-7.367zM29.898 125.136a3.314 3.314 0 0 1-1.359 1.294c-.575.297-1.222.445-1.944.445-.721 0-1.369-.148-1.943-.445a3.322 3.322 0 0 1-1.36-1.294c-.331-.565-.497-1.232-.497-2.002 0-.771.166-1.438.497-2.003a3.313 3.313 0 0 1 1.36-1.293c.574-.297 1.223-.446 1.943-.446.723 0 1.369.149 1.944.446s1.028.728 1.359 1.293.497 1.232.497 2.003c.001.769-.166 1.436-.497 2.002m-1.703-3.347c-.435-.331-.967-.497-1.601-.497-.633 0-1.166.166-1.601.497-.433.331-.649.778-.649 1.345 0 .564.217 1.013.649 1.344.435.332.968.498 1.601.498.634 0 1.166-.166 1.601-.498.435-.331.649-.779.649-1.344.001-.567-.214-1.014-.649-1.345M22.911 117.75v-1.812h1.199c-.419-.265-.742-.586-.972-.966s-.345-.784-.345-1.213c0-.272.05-.569.146-.892l1.682.336a1.429 1.429 0 0 0-.205.76c0 .576.261 1.048.783 1.418.521.37 1.342.557 2.461.557h2.617v1.812h-7.366zM29.812 111.252c-.391.511-.857.851-1.403 1.016l-.776-1.446c.381-.138.68-.329.893-.577.215-.249.321-.544.321-.885a1.2 1.2 0 0 0-.168-.658c-.112-.175-.294-.263-.548-.263-.225 0-.406.105-.548.313-.142.21-.291.534-.446.973-.019.068-.058.17-.117.307-.224.565-.506 1.004-.848 1.315-.34.313-.779.467-1.314.467-.381 0-.727-.102-1.039-.306a2.185 2.185 0 0 1-.744-.84 2.554 2.554 0 0 1-.279-1.207c0-.497.105-.949.314-1.359.211-.408.506-.725.886-.949l.993 1.082c-.43.292-.644.686-.644 1.184a.84.84 0 0 0 .154.504.471.471 0 0 0 .401.212c.176 0 .338-.103.49-.307.15-.205.334-.604.547-1.199.205-.564.474-1.001.805-1.308.332-.308.756-.46 1.271-.46.721 0 1.299.229 1.732.687s.65 1.057.65 1.797c.001.759-.194 1.396-.583 1.907M35.481 17.006l-4.782 14.969h-3.266l-2.584-9.682-2.584 9.682h-3.268l-4.782-14.969h3.713l2.673 10.276 2.525-10.276h3.445l2.524 10.276 2.674-10.276zM37.978 27.163c1.426 0 2.496 1.068 2.496 2.495 0 1.425-1.07 2.495-2.496 2.495-1.425 0-2.494-1.07-2.494-2.495-.001-1.427 1.069-2.495 2.494-2.495"></path></g></svg></a></div>
